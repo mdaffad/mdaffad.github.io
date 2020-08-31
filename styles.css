@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+:root {
+    --font-color:#3F3D56;
+    --bg-color: white;
+}
+[data-theme="dark"] {
+    --font-color: whitesmoke;
+    --bg-color: #3F3D56;
+}
 body {
-    background-color: #3F3D56;
+    background-color: var(--bg-color);
     margin: 0;
 }
 h1 {
-    color: whitesmoke;
+    color: var(--font-color);
     font-family: 'Roboto Slab', serif;
     font-size: 3vw;
 }
 h2,p {
-    color: whitesmoke;
+    color: var(--font-color);
     font-family:'Raleway', sans-serif;
     font-size: 1.5vw;
 }
@@ -25,7 +33,7 @@ img {
 .centered {
     position: absolute;
     top: 40%;
-    width: 105%;
+    width: 100%;
     text-align: center;
   }
 .container {

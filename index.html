@@ -2,11 +2,20 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="card_styles.css">
+    <link rel="stylesheet" href="toogle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <div style="padding-left: 92vw; padding-top: 0.3vw;">
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+      </label>
+    </div>
+    </div>
     <div class = "container">
-        <img src = "assets/cover.svg">
+        <img id="cover" src = "assets/cover 1.svg">
         <div class="centered">
             <h1>
                 Welcome to My Page
@@ -17,15 +26,15 @@
             </h2>
         </div>
     </div>
-        
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/mdaffad" >
         <div class = "container-card" >
             <div class="flip-card" style="float:left; padding:5vw;">
                 <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="assets/icons8-github.svg" alt="Avatar">
+                    <img src="assets/icons8-github.svg">
                 </div>
                 <div class="flip-card-back">
-                    <img src="assets/icons8-github 1.svg" alt="Avatar">
+                    <img src="assets/icons8-github 1.svg">
                 </div>
                 </div>
             </div>
@@ -36,15 +45,17 @@
                 Come to see my git repository at github.com
             </p>
         </div>
+        </a>
 
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/muhammad-daffa-dinaya-b517a9118/" >
         <div class = "container-card" >
             <div class="flip-card" style="float:left; padding:5vw;">
                 <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="assets/icons8-linkedin.svg" alt="Avatar">
+                    <img src="assets/icons8-linkedin.svg">
                 </div>
                 <div class="flip-card-back">
-                    <img src="assets/icons8-linkedin 1.svg" alt="Avatar">
+                    <img src="assets/icons8-linkedin 1.svg">
                 </div>
                 </div>
             </div>
@@ -55,7 +66,30 @@
                 Get in touch with my linkedin
             </p>
         </div>
+        </a>
+
+        <a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/mdaffad" >
+            <div class = "container-card" >
+                <div class="flip-card" style="float:left; padding:5vw;">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assets/icons8-gitlab.svg">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="assets/icons8-gitlab 1.svg">
+                    </div>
+                    </div>
+                </div>
+                <h2 style="padding-top:5vw; font-size:2vw">
+                    Pay a Visit to Another Repository
+                </h2>
+                <p>
+                    Come to see my git repository at gitlab.com
+                </p>
+            </div>
+            </a>
     
+    <script type="text/javascript" src="main.js"></script>
         
 </body>
 </html>
